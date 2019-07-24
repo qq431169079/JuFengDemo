@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <FunSDK/FunSDK.h>
 
 @interface AppDelegate ()
 
@@ -18,6 +19,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     sleep(2);
+    
+    FUN_Init();
     return YES;
 }
 

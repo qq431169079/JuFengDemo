@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6CF50AF822E7FE4000CB1FDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF50AF722E7FE4000CB1FDF /* AppDelegate.m */; };
+		6CF50AF822E7FE4000CB1FDF /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6CF50AF722E7FE4000CB1FDF /* AppDelegate.mm */; };
 		6CF50AFB22E7FE4000CB1FDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF50AFA22E7FE4000CB1FDF /* ViewController.m */; };
 		6CF50AFE22E7FE4000CB1FDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF50AFC22E7FE4000CB1FDF /* Main.storyboard */; };
 		6CF50B0022E7FE4200CB1FDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CF50AFF22E7FE4200CB1FDF /* Assets.xcassets */; };
 		6CF50B0322E7FE4200CB1FDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF50B0122E7FE4200CB1FDF /* LaunchScreen.storyboard */; };
 		6CF50B0622E7FE4200CB1FDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF50B0522E7FE4200CB1FDF /* main.m */; };
+		6FDDC35522E8807300FAF0EB /* FunSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDC35422E8807300FAF0EB /* FunSDK.framework */; };
+		6FDDC35822E8809D00FAF0EB /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDC35722E8809D00FAF0EB /* OpenAL.framework */; };
+		6FDDC35A22E880AA00FAF0EB /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDC35922E880AA00FAF0EB /* libresolv.tbd */; };
+		6FDDC35C22E880B300FAF0EB /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDC35B22E880B300FAF0EB /* libiconv.tbd */; };
+		6FDDC35E22E880BB00FAF0EB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDC35D22E880BB00FAF0EB /* libz.tbd */; };
+		6FDDC36022E880D300FAF0EB /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDC35F22E880D300FAF0EB /* AVKit.framework */; };
+		6FDDC36222E880DB00FAF0EB /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDC36122E880DB00FAF0EB /* AssetsLibrary.framework */; };
+		6FDDC36422E880E400FAF0EB /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDC36322E880E400FAF0EB /* UserNotifications.framework */; };
+		6FDDC36622E880EC00FAF0EB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDC36522E880EC00FAF0EB /* AudioToolbox.framework */; };
+		6FDDC36822E880F500FAF0EB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDC36722E880F500FAF0EB /* CoreMedia.framework */; };
+		6FDDC36A22E8810C00FAF0EB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDC36922E8810C00FAF0EB /* MediaPlayer.framework */; };
+		6FDDC36C22E8811900FAF0EB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDC36B22E8811900FAF0EB /* AVFoundation.framework */; };
+		6FDDC36E22E8812400FAF0EB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDC36D22E8812400FAF0EB /* OpenGLES.framework */; };
+		6FDDC37022E8812B00FAF0EB /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDC36F22E8812B00FAF0EB /* GLKit.framework */; };
+		6FDDC37222E8813B00FAF0EB /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDC37122E8813B00FAF0EB /* VideoToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6CF50AF322E7FE4000CB1FDF /* JuFengDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuFengDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF50AF622E7FE4000CB1FDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6CF50AF722E7FE4000CB1FDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CF50AF722E7FE4000CB1FDF /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		6CF50AF922E7FE4000CB1FDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6CF50AFA22E7FE4000CB1FDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6CF50AFD22E7FE4000CB1FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -26,6 +41,21 @@
 		6CF50B0222E7FE4200CB1FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CF50B0422E7FE4200CB1FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CF50B0522E7FE4200CB1FDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FDDC35422E8807300FAF0EB /* FunSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FunSDK.framework; sourceTree = "<group>"; };
+		6FDDC35722E8809D00FAF0EB /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		6FDDC35922E880AA00FAF0EB /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		6FDDC35B22E880B300FAF0EB /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		6FDDC35D22E880BB00FAF0EB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6FDDC35F22E880D300FAF0EB /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		6FDDC36122E880DB00FAF0EB /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		6FDDC36322E880E400FAF0EB /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		6FDDC36522E880EC00FAF0EB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6FDDC36722E880F500FAF0EB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6FDDC36922E8810C00FAF0EB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6FDDC36B22E8811900FAF0EB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6FDDC36D22E8812400FAF0EB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6FDDC36F22E8812B00FAF0EB /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		6FDDC37122E8813B00FAF0EB /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +63,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FDDC35A22E880AA00FAF0EB /* libresolv.tbd in Frameworks */,
+				6FDDC37222E8813B00FAF0EB /* VideoToolbox.framework in Frameworks */,
+				6FDDC37022E8812B00FAF0EB /* GLKit.framework in Frameworks */,
+				6FDDC36E22E8812400FAF0EB /* OpenGLES.framework in Frameworks */,
+				6FDDC36C22E8811900FAF0EB /* AVFoundation.framework in Frameworks */,
+				6FDDC36A22E8810C00FAF0EB /* MediaPlayer.framework in Frameworks */,
+				6FDDC35822E8809D00FAF0EB /* OpenAL.framework in Frameworks */,
+				6FDDC36822E880F500FAF0EB /* CoreMedia.framework in Frameworks */,
+				6FDDC36622E880EC00FAF0EB /* AudioToolbox.framework in Frameworks */,
+				6FDDC36422E880E400FAF0EB /* UserNotifications.framework in Frameworks */,
+				6FDDC36222E880DB00FAF0EB /* AssetsLibrary.framework in Frameworks */,
+				6FDDC36022E880D300FAF0EB /* AVKit.framework in Frameworks */,
+				6FDDC35E22E880BB00FAF0EB /* libz.tbd in Frameworks */,
+				6FDDC35C22E880B300FAF0EB /* libiconv.tbd in Frameworks */,
+				6FDDC35522E8807300FAF0EB /* FunSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +89,7 @@
 			children = (
 				6CF50AF522E7FE4000CB1FDF /* JuFengDemo */,
 				6CF50AF422E7FE4000CB1FDF /* Products */,
+				6FDDC35622E8809D00FAF0EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +104,9 @@
 		6CF50AF522E7FE4000CB1FDF /* JuFengDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6FDDC35322E8807300FAF0EB /* Framework */,
 				6CF50AF622E7FE4000CB1FDF /* AppDelegate.h */,
-				6CF50AF722E7FE4000CB1FDF /* AppDelegate.m */,
+				6CF50AF722E7FE4000CB1FDF /* AppDelegate.mm */,
 				6CF50AF922E7FE4000CB1FDF /* ViewController.h */,
 				6CF50AFA22E7FE4000CB1FDF /* ViewController.m */,
 				6CF50AFC22E7FE4000CB1FDF /* Main.storyboard */,
@@ -69,6 +116,35 @@
 				6CF50B0522E7FE4200CB1FDF /* main.m */,
 			);
 			path = JuFengDemo;
+			sourceTree = "<group>";
+		};
+		6FDDC35322E8807300FAF0EB /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				6FDDC35422E8807300FAF0EB /* FunSDK.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		6FDDC35622E8809D00FAF0EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FDDC37122E8813B00FAF0EB /* VideoToolbox.framework */,
+				6FDDC36F22E8812B00FAF0EB /* GLKit.framework */,
+				6FDDC36D22E8812400FAF0EB /* OpenGLES.framework */,
+				6FDDC36B22E8811900FAF0EB /* AVFoundation.framework */,
+				6FDDC36922E8810C00FAF0EB /* MediaPlayer.framework */,
+				6FDDC36722E880F500FAF0EB /* CoreMedia.framework */,
+				6FDDC36522E880EC00FAF0EB /* AudioToolbox.framework */,
+				6FDDC36322E880E400FAF0EB /* UserNotifications.framework */,
+				6FDDC36122E880DB00FAF0EB /* AssetsLibrary.framework */,
+				6FDDC35F22E880D300FAF0EB /* AVKit.framework */,
+				6FDDC35D22E880BB00FAF0EB /* libz.tbd */,
+				6FDDC35B22E880B300FAF0EB /* libiconv.tbd */,
+				6FDDC35922E880AA00FAF0EB /* libresolv.tbd */,
+				6FDDC35722E8809D00FAF0EB /* OpenAL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +219,7 @@
 			files = (
 				6CF50AFB22E7FE4000CB1FDF /* ViewController.m in Sources */,
 				6CF50B0622E7FE4200CB1FDF /* main.m in Sources */,
-				6CF50AF822E7FE4000CB1FDF /* AppDelegate.m in Sources */,
+				6CF50AF822E7FE4000CB1FDF /* AppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,16 +361,34 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YG3T5AFNXY;
+				DEVELOPMENT_TEAM = L48W3WHH6N;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JuFengDemo/Framework",
+				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"OS_IOS=1",
+					"FORMAL=1",
+				);
 				INFOPLIST_FILE = JuFengDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SaturdayNight.JuFengDemo;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-Objc";
+				PRODUCT_BUNDLE_IDENTIFIER = JuFengDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -302,16 +396,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YG3T5AFNXY;
+				DEVELOPMENT_TEAM = L48W3WHH6N;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JuFengDemo/Framework",
+				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"OS_IOS=1",
+					"FORMAL=1",
+				);
 				INFOPLIST_FILE = JuFengDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SaturdayNight.JuFengDemo;
+				OTHER_LDFLAGS = "-Objc";
+				PRODUCT_BUNDLE_IDENTIFIER = JuFengDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
