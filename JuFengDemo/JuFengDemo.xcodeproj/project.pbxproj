@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C3ADC8F22E940E700FE64B1 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3ADC8E22E940E700FE64B1 /* libbz2.tbd */; };
 		6CF50AF822E7FE4000CB1FDF /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6CF50AF722E7FE4000CB1FDF /* AppDelegate.mm */; };
 		6CF50AFB22E7FE4000CB1FDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF50AFA22E7FE4000CB1FDF /* ViewController.m */; };
 		6CF50AFE22E7FE4000CB1FDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF50AFC22E7FE4000CB1FDF /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C3ADC8E22E940E700FE64B1 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		6CF50AF322E7FE4000CB1FDF /* JuFengDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuFengDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF50AF622E7FE4000CB1FDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6CF50AF722E7FE4000CB1FDF /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C3ADC8F22E940E700FE64B1 /* libbz2.tbd in Frameworks */,
 				6FDDC35A22E880AA00FAF0EB /* libresolv.tbd in Frameworks */,
 				6FDDC37222E8813B00FAF0EB /* VideoToolbox.framework in Frameworks */,
 				6FDDC37022E8812B00FAF0EB /* GLKit.framework in Frameworks */,
@@ -129,6 +132,7 @@
 		6FDDC35622E8809D00FAF0EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6C3ADC8E22E940E700FE64B1 /* libbz2.tbd */,
 				6FDDC37122E8813B00FAF0EB /* VideoToolbox.framework */,
 				6FDDC36F22E8812B00FAF0EB /* GLKit.framework */,
 				6FDDC36D22E8812400FAF0EB /* OpenGLES.framework */,
@@ -364,7 +368,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L48W3WHH6N;
+				DEVELOPMENT_TEAM = R6S652TPCM;
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -383,12 +387,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_BUNDLE_IDENTIFIER = JuFengDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -399,7 +403,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L48W3WHH6N;
+				DEVELOPMENT_TEAM = R6S652TPCM;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -415,11 +419,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_BUNDLE_IDENTIFIER = JuFengDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
