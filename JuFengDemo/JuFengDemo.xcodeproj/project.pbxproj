@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		6C3ADC8F22E940E700FE64B1 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3ADC8E22E940E700FE64B1 /* libbz2.tbd */; };
+		6C3ADC9522E9C20B00FE64B1 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3ADC9422E9C20B00FE64B1 /* LoginVC.m */; };
+		6C3ADC9922E9C32700FE64B1 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3ADC9822E9C32700FE64B1 /* MainVC.m */; };
+		6C3ADC9D22EA8CB600FE64B1 /* white_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C3ADC9C22EA8CB600FE64B1 /* white_bg.png */; };
 		6CF50AF822E7FE4000CB1FDF /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6CF50AF722E7FE4000CB1FDF /* AppDelegate.mm */; };
-		6CF50AFB22E7FE4000CB1FDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF50AFA22E7FE4000CB1FDF /* ViewController.m */; };
 		6CF50AFE22E7FE4000CB1FDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF50AFC22E7FE4000CB1FDF /* Main.storyboard */; };
 		6CF50B0022E7FE4200CB1FDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CF50AFF22E7FE4200CB1FDF /* Assets.xcassets */; };
 		6CF50B0322E7FE4200CB1FDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF50B0122E7FE4200CB1FDF /* LaunchScreen.storyboard */; };
@@ -33,11 +35,14 @@
 
 /* Begin PBXFileReference section */
 		6C3ADC8E22E940E700FE64B1 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		6C3ADC9322E9C20B00FE64B1 /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		6C3ADC9422E9C20B00FE64B1 /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		6C3ADC9722E9C32700FE64B1 /* MainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		6C3ADC9822E9C32700FE64B1 /* MainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		6C3ADC9C22EA8CB600FE64B1 /* white_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_bg.png; sourceTree = "<group>"; };
 		6CF50AF322E7FE4000CB1FDF /* JuFengDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuFengDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF50AF622E7FE4000CB1FDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6CF50AF722E7FE4000CB1FDF /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
-		6CF50AF922E7FE4000CB1FDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6CF50AFA22E7FE4000CB1FDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6CF50AFD22E7FE4000CB1FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CF50AFF22E7FE4200CB1FDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CF50B0222E7FE4200CB1FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -87,6 +92,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C3ADC9022E9C1C200FE64B1 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6C3ADC9122E9C1C200FE64B1 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				6C3ADC9622E9C30F00FE64B1 /* MainVC */,
+				6C3ADC9222E9C1F000FE64B1 /* LoginVC */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		6C3ADC9222E9C1F000FE64B1 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				6C3ADC9322E9C20B00FE64B1 /* LoginVC.h */,
+				6C3ADC9422E9C20B00FE64B1 /* LoginVC.m */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		6C3ADC9622E9C30F00FE64B1 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				6C3ADC9722E9C32700FE64B1 /* MainVC.h */,
+				6C3ADC9822E9C32700FE64B1 /* MainVC.m */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		6C3ADC9A22EA8CAA00FE64B1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6C3ADC9B22EA8CAA00FE64B1 /* Image */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		6C3ADC9B22EA8CAA00FE64B1 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				6C3ADC9C22EA8CB600FE64B1 /* white_bg.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		6CF50AEA22E7FE4000CB1FDF = {
 			isa = PBXGroup;
 			children = (
@@ -108,15 +163,16 @@
 			isa = PBXGroup;
 			children = (
 				6FDDC35322E8807300FAF0EB /* Framework */,
+				6C3ADC9022E9C1C200FE64B1 /* Manager */,
+				6C3ADC9122E9C1C200FE64B1 /* VC */,
 				6CF50AF622E7FE4000CB1FDF /* AppDelegate.h */,
 				6CF50AF722E7FE4000CB1FDF /* AppDelegate.mm */,
-				6CF50AF922E7FE4000CB1FDF /* ViewController.h */,
-				6CF50AFA22E7FE4000CB1FDF /* ViewController.m */,
 				6CF50AFC22E7FE4000CB1FDF /* Main.storyboard */,
 				6CF50AFF22E7FE4200CB1FDF /* Assets.xcassets */,
 				6CF50B0122E7FE4200CB1FDF /* LaunchScreen.storyboard */,
 				6CF50B0422E7FE4200CB1FDF /* Info.plist */,
 				6CF50B0522E7FE4200CB1FDF /* main.m */,
+				6C3ADC9A22EA8CAA00FE64B1 /* Resource */,
 			);
 			path = JuFengDemo;
 			sourceTree = "<group>";
@@ -208,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C3ADC9D22EA8CB600FE64B1 /* white_bg.png in Resources */,
 				6CF50B0322E7FE4200CB1FDF /* LaunchScreen.storyboard in Resources */,
 				6CF50B0022E7FE4200CB1FDF /* Assets.xcassets in Resources */,
 				6CF50AFE22E7FE4000CB1FDF /* Main.storyboard in Resources */,
@@ -221,8 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CF50AFB22E7FE4000CB1FDF /* ViewController.m in Sources */,
 				6CF50B0622E7FE4200CB1FDF /* main.m in Sources */,
+				6C3ADC9922E9C32700FE64B1 /* MainVC.m in Sources */,
+				6C3ADC9522E9C20B00FE64B1 /* LoginVC.m in Sources */,
 				6CF50AF822E7FE4000CB1FDF /* AppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
