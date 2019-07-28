@@ -7,12 +7,14 @@
 //
 
 #import "LoginVC.h"
+#import "AccountManager.h"
 
 @interface LoginVC () <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UIView *contentView;
 @property (weak, nonatomic) IBOutlet UITextField *tfUserName;
 @property (weak, nonatomic) IBOutlet UITextField *tfPassword;
+@property (weak, nonatomic) IBOutlet UIButton *btnLogin;
 
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *bottomC;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *topC;
@@ -31,6 +33,8 @@
     [super viewDidLoad];
     
     [self configSubviews];
+    
+    [self.btnLogin addTarget:self action:@selector(btnLoginClicked) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)configSubviews{
@@ -68,6 +72,11 @@
     } completion:nil];
 }
 
+- (void)btnLoginClicked{
+    [AccountManager shareInstance].loginState = AccountLoginStateUser;
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 //MARK: - Delegate
 //MARK: UITextFieldDelegate
 - (void)textFieldDidBeginEditing:(UITextField *)textField{
@@ -82,4 +91,6 @@
     return [textField resignFirstResponder];
 }
 
+- (IBAction)loginClicked:(id)sender {
+}
 @end

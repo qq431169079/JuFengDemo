@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		6C3ADC8F22E940E700FE64B1 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3ADC8E22E940E700FE64B1 /* libbz2.tbd */; };
 		6C3ADC9522E9C20B00FE64B1 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3ADC9422E9C20B00FE64B1 /* LoginVC.m */; };
-		6C3ADC9922E9C32700FE64B1 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3ADC9822E9C32700FE64B1 /* MainVC.m */; };
 		6C3ADC9D22EA8CB600FE64B1 /* white_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C3ADC9C22EA8CB600FE64B1 /* white_bg.png */; };
 		6CF50AF822E7FE4000CB1FDF /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6CF50AF722E7FE4000CB1FDF /* AppDelegate.mm */; };
 		6CF50AFE22E7FE4000CB1FDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF50AFC22E7FE4000CB1FDF /* Main.storyboard */; };
 		6CF50B0022E7FE4200CB1FDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CF50AFF22E7FE4200CB1FDF /* Assets.xcassets */; };
 		6CF50B0322E7FE4200CB1FDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF50B0122E7FE4200CB1FDF /* LaunchScreen.storyboard */; };
 		6CF50B0622E7FE4200CB1FDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF50B0522E7FE4200CB1FDF /* main.m */; };
+		6F22286322EDE57F00AA6853 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F22286222EDE57F00AA6853 /* UIColor+Extension.m */; };
+		6F22286822EDE79B00AA6853 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F22286722EDE79B00AA6853 /* AccountManager.m */; };
+		6F22286D22EDE98600AA6853 /* DeviceListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F22286C22EDE98600AA6853 /* DeviceListVC.m */; };
+		6F22287022EDE99A00AA6853 /* PersonalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F22286F22EDE99A00AA6853 /* PersonalVC.m */; };
+		6F61455022EDDF4F002A830C /* MainTabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F61454F22EDDF4F002A830C /* MainTabbarVC.m */; };
 		6FDDC35522E8807300FAF0EB /* FunSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDC35422E8807300FAF0EB /* FunSDK.framework */; };
 		6FDDC35822E8809D00FAF0EB /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDC35722E8809D00FAF0EB /* OpenAL.framework */; };
 		6FDDC35A22E880AA00FAF0EB /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDC35922E880AA00FAF0EB /* libresolv.tbd */; };
@@ -37,8 +41,6 @@
 		6C3ADC8E22E940E700FE64B1 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		6C3ADC9322E9C20B00FE64B1 /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
 		6C3ADC9422E9C20B00FE64B1 /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
-		6C3ADC9722E9C32700FE64B1 /* MainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
-		6C3ADC9822E9C32700FE64B1 /* MainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
 		6C3ADC9C22EA8CB600FE64B1 /* white_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_bg.png; sourceTree = "<group>"; };
 		6CF50AF322E7FE4000CB1FDF /* JuFengDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuFengDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF50AF622E7FE4000CB1FDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,6 +50,16 @@
 		6CF50B0222E7FE4200CB1FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CF50B0422E7FE4200CB1FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CF50B0522E7FE4200CB1FDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F22286122EDE57F00AA6853 /* UIColor+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		6F22286222EDE57F00AA6853 /* UIColor+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		6F22286622EDE79B00AA6853 /* AccountManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		6F22286722EDE79B00AA6853 /* AccountManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
+		6F22286B22EDE98600AA6853 /* DeviceListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceListVC.h; sourceTree = "<group>"; };
+		6F22286C22EDE98600AA6853 /* DeviceListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceListVC.m; sourceTree = "<group>"; };
+		6F22286E22EDE99A00AA6853 /* PersonalVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalVC.h; sourceTree = "<group>"; };
+		6F22286F22EDE99A00AA6853 /* PersonalVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalVC.m; sourceTree = "<group>"; };
+		6F61454E22EDDF4F002A830C /* MainTabbarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabbarVC.h; sourceTree = "<group>"; };
+		6F61454F22EDDF4F002A830C /* MainTabbarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabbarVC.m; sourceTree = "<group>"; };
 		6FDDC35422E8807300FAF0EB /* FunSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FunSDK.framework; sourceTree = "<group>"; };
 		6FDDC35722E8809D00FAF0EB /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		6FDDC35922E880AA00FAF0EB /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
@@ -92,16 +104,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6C3ADC9022E9C1C200FE64B1 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
 		6C3ADC9122E9C1C200FE64B1 /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				6F22286A22EDE95300AA6853 /* PersonalVC */,
+				6F22286922EDE94800AA6853 /* DeviceListVC */,
 				6C3ADC9622E9C30F00FE64B1 /* MainVC */,
 				6C3ADC9222E9C1F000FE64B1 /* LoginVC */,
 			);
@@ -120,8 +127,8 @@
 		6C3ADC9622E9C30F00FE64B1 /* MainVC */ = {
 			isa = PBXGroup;
 			children = (
-				6C3ADC9722E9C32700FE64B1 /* MainVC.h */,
-				6C3ADC9822E9C32700FE64B1 /* MainVC.m */,
+				6F61454E22EDDF4F002A830C /* MainTabbarVC.h */,
+				6F61454F22EDDF4F002A830C /* MainTabbarVC.m */,
 			);
 			path = MainVC;
 			sourceTree = "<group>";
@@ -162,8 +169,9 @@
 		6CF50AF522E7FE4000CB1FDF /* JuFengDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6F22286022EDE55800AA6853 /* Category */,
 				6FDDC35322E8807300FAF0EB /* Framework */,
-				6C3ADC9022E9C1C200FE64B1 /* Manager */,
+				6F22286422EDE75B00AA6853 /* Manager */,
 				6C3ADC9122E9C1C200FE64B1 /* VC */,
 				6CF50AF622E7FE4000CB1FDF /* AppDelegate.h */,
 				6CF50AF722E7FE4000CB1FDF /* AppDelegate.mm */,
@@ -175,6 +183,50 @@
 				6C3ADC9A22EA8CAA00FE64B1 /* Resource */,
 			);
 			path = JuFengDemo;
+			sourceTree = "<group>";
+		};
+		6F22286022EDE55800AA6853 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6F22286122EDE57F00AA6853 /* UIColor+Extension.h */,
+				6F22286222EDE57F00AA6853 /* UIColor+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6F22286422EDE75B00AA6853 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6F22286522EDE75B00AA6853 /* Account */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6F22286522EDE75B00AA6853 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				6F22286622EDE79B00AA6853 /* AccountManager.h */,
+				6F22286722EDE79B00AA6853 /* AccountManager.m */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		6F22286922EDE94800AA6853 /* DeviceListVC */ = {
+			isa = PBXGroup;
+			children = (
+				6F22286B22EDE98600AA6853 /* DeviceListVC.h */,
+				6F22286C22EDE98600AA6853 /* DeviceListVC.m */,
+			);
+			path = DeviceListVC;
+			sourceTree = "<group>";
+		};
+		6F22286A22EDE95300AA6853 /* PersonalVC */ = {
+			isa = PBXGroup;
+			children = (
+				6F22286E22EDE99A00AA6853 /* PersonalVC.h */,
+				6F22286F22EDE99A00AA6853 /* PersonalVC.m */,
+			);
+			path = PersonalVC;
 			sourceTree = "<group>";
 		};
 		6FDDC35322E8807300FAF0EB /* Framework */ = {
@@ -279,9 +331,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CF50B0622E7FE4200CB1FDF /* main.m in Sources */,
-				6C3ADC9922E9C32700FE64B1 /* MainVC.m in Sources */,
+				6F22287022EDE99A00AA6853 /* PersonalVC.m in Sources */,
+				6F22286322EDE57F00AA6853 /* UIColor+Extension.m in Sources */,
+				6F22286822EDE79B00AA6853 /* AccountManager.m in Sources */,
 				6C3ADC9522E9C20B00FE64B1 /* LoginVC.m in Sources */,
 				6CF50AF822E7FE4000CB1FDF /* AppDelegate.mm in Sources */,
+				6F22286D22EDE98600AA6853 /* DeviceListVC.m in Sources */,
+				6F61455022EDDF4F002A830C /* MainTabbarVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

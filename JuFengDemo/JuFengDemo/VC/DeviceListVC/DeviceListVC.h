@@ -1,8 +1,8 @@
 //
-//  MainVC.h
+//  DeviceListVC.h
 //  JuFengDemo
 //
-//  Created by Megatron on 2019/7/25.
+//  Created by Tony Stark on 28/07/2019.
 //  Copyright © 2019 SaturdayNight. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MainVC : UIViewController
+@interface DeviceListVC : UIViewController
 
 @end
 
